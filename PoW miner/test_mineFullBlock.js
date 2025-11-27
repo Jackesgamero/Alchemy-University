@@ -1,5 +1,5 @@
 const { assert } = require('chai');
-const { mine, blocks, mempool, addTransaction, TARGET_DIFFICULTY } = require('../index');
+const { mine, blocks, mempool, addTransaction, TARGET_DIFFICULTY } = require('../miner');
 const SHA256 = require('crypto-js/sha256');
 
 describe('mine', () => {
