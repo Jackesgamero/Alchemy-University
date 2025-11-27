@@ -1,5 +1,5 @@
 const {assert} = require('chai');
-const {addTransaction, mempool} = require('../index');
+const {addTransaction, mempool} = require('../miner');
 
 describe('addTransaction', () => {
     it('should add the transaction to the mempool', () => {
