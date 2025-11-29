@@ -3,17 +3,17 @@ const app = express();
 const cors = require("cors");
 const port = 3042;
 
-const secp = require("ethereum-cryptography/secp256k1");
-const { utf8ToBytes, hexToBytes, toHex } = require("ethereum-cryptography/utils");
+const secp = require("@noble/secp256k1");
+const { utf8ToBytes, toHex } = require("ethereum-cryptography/utils");
 const { keccak256 } = require("ethereum-cryptography/keccak");
 
 app.use(cors());
 app.use(express.json());
 
 const balances = {
-  "360734290ba6bd3d5bc81da00fccbdf348f4aef9": 100,
-  "e345fd8d25fefc0c4c0401701329c0f826afa225": 50,
-  "ae7143f999d5c2146a1c0304be07bb5a95e4ae01": 75,
+  "6061e3ea800e4a3b9bb33b3799698aa2569fcd02": 100,
+  "7eb3cb0ee04fc15f82c90a43d82821cd3d8ff0f0": 50,
+  "82baa10cc4f034b0f6351014ed514d2cab1d5827": 75,
 };
 
 app.get("/balance/:address", (req, res) => {
@@ -23,17 +23,21 @@ app.get("/balance/:address", (req, res) => {
 });
 
 app.post("/send", (req, res) => {
-  const { sender, recipient, amount, signature, recoveryBit, message } = req.body;
+  const { sender, recipient, amount, signature, recoveryBit } = req.body;
 
   try {
-    const msg = utf8ToBytes(JSON.stringify(message));
-    const msgHash = keccak256(msg);
-    const pubKey = secp.recoverPublicKey(msgHash, signature,recoveryBit);
-    const hash = pubKey.slice(1);
-    const _hash = keccak256(hash);
-    const addressFromRecover = _hash.slice(-20);
-    if(toHex(addressFromRecover != sender)) {
-      res.status(400).send({ message: "Signature invalid" });
+    //Generate and hash the message
+    const msg = { sender: sender, amount: amount, recipient: recipient };
+    const bytes = utf8ToBytes(JSON.stringify(msg));
+    const msgHash = keccak256(bytes);
+
+    //Recover the eth address from the signature
+    const pub = secp.recoverPublicKey(msgHash,signature,recoveryBit);
+    const address = toHex(keccak256(pub.slice(1)).slice(-20));
+
+    //Check wether the sender is the propietary of the wallet
+    if(sender !== address) {
+      res.status(400).send({ message: "Invalid signature" });
     }
     setInitialBalance(sender);
     setInitialBalance(recipient);
