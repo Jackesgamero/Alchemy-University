@@ -1,0 +1,154 @@
+body {
+  background: #bcd8f5;
+  font-family: "Inter", sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.title {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.card {
+  background: rgb(242, 252, 248);
+  border-radius: 12px;
+  padding: 20px 25px;
+  margin-bottom: 25px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+h2 {
+  margin-top: 0;
+  color: #444;
+}
+
+.block-number {
+  font-size: 2rem;
+  color: #4a8df7;
+  text-align: center;
+  margin: 0;
+  font-weight: bold;
+}
+
+.code {
+  background: #1e1e1e;
+  color: #dcdcdc;
+  padding: 15px;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  overflow-x: auto;
+}
+
+.tx-list {
+  list-style: none;
+  padding: 0;
+}
+
+.tx-item {
+  background: #eef4ff;
+  padding: 10px;
+  border-radius: 6px;
+  margin-bottom: 8px;
+  font-family: monospace;
+  font-size: 0.85rem;
+  color: #2b4ea2;
+  overflow-wrap: break-word;
+}
+
+.details {
+  margin-bottom: 12px;
+}
+
+.details summary {
+  cursor: pointer;
+  font-weight: bold;
+  color: #2b4ea2;
+  padding: 8px 0;
+}
+
+
+
+
+
+
+.input {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #bcd0ff;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.button {
+  padding: 12px 20px;
+  background: #4a8df7;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: 0.2s ease;
+}
+
+.button:hover {
+  background: #3578e6;
+}
+
+.button:disabled {
+  background: #aac7ff;
+  cursor: not-allowed;
+}
+
+.error {
+  color: #d9534f;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.balance {
+  margin-top: 15px;
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #2b4ea2;
+}
+
+
+/* Navbar general */
+.navbar {
+  background: white;
+  padding: 15px 25px;
+  display: flex;
+  gap: 15px; /* espacio entre botones */
+  border-radius: 8px;
+  margin-bottom: 25px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+}
+
+/* Estilo de los enlaces como botones */
+.nav-item {
+  color: white;
+  text-decoration: none; /* quita subrayado */
+  font-weight: 600;
+  padding: 10px 20px;
+  border-radius: 8px;
+  background: #4a8df7; /* color del botón */
+  transition: 0.25s ease-in-out;
+  box-shadow: 0 2px 8px rgba(0, 60, 190, 0.3);
+}
+
+/* Hover para los botones */
+.nav-item:hover {
+  background: #3578e6;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 60, 190, 0.35);
+}
