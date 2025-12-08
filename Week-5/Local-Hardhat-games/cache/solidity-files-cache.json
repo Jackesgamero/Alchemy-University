@@ -1,0 +1,180 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/Users/jaime/Documents/GitHub/Alchemy-University/Week-5/Local-Hardhat-games/contracts/Game1.sol": {
+      "lastModificationDate": 1765195888780,
+      "contentHash": "7d951dadff50d435592783d332e461e7",
+      "sourceName": "contracts/Game1.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.17"
+      ],
+      "artifacts": [
+        "Game1"
+      ]
+    },
+    "/Users/jaime/Documents/GitHub/Alchemy-University/Week-5/Local-Hardhat-games/contracts/Game2.sol": {
+      "lastModificationDate": 1765195888780,
+      "contentHash": "ddab2ad705cc98d0e65e7136e5d79af8",
+      "sourceName": "contracts/Game2.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.17"
+      ],
+      "artifacts": [
+        "Game2"
+      ]
+    },
+    "/Users/jaime/Documents/GitHub/Alchemy-University/Week-5/Local-Hardhat-games/contracts/Game3.sol": {
+      "lastModificationDate": 1765195888780,
+      "contentHash": "d8798475f74c9d643183160ca1c32c4e",
+      "sourceName": "contracts/Game3.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.17"
+      ],
+      "artifacts": [
+        "Game3"
+      ]
+    },
+    "/Users/jaime/Documents/GitHub/Alchemy-University/Week-5/Local-Hardhat-games/contracts/Game4.sol": {
+      "lastModificationDate": 1765195888779,
+      "contentHash": "c7f13ef9680c0d4aca5f361b8ab25af8",
+      "sourceName": "contracts/Game4.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.17"
+      ],
+      "artifacts": [
+        "Game4"
+      ]
+    },
+    "/Users/jaime/Documents/GitHub/Alchemy-University/Week-5/Local-Hardhat-games/contracts/Game5.sol": {
+      "lastModificationDate": 1765195888779,
+      "contentHash": "6f317f375ebd492013d5f813e334f806",
+      "sourceName": "contracts/Game5.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.17"
+      ],
+      "artifacts": [
+        "Game5"
+      ]
+    }
+  }
+}
