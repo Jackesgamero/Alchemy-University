@@ -1,0 +1,28 @@
+body{background:#0f111b;color:#f5f5f5;font-family:'Inter',sans-serif;margin:0;padding:0;}
+h1,h2{margin:0 0 12px 0;}
+input{width:100%;padding:10px;margin-top:4px;margin-bottom:12px;border-radius:8px;border:1px solid #333;background:#1a1c2b;color:#f5f5f5;}
+button{padding:10px 16px;border-radius:8px;border:none;cursor:pointer;font-weight:600;}
+button.primary{background:linear-gradient(90deg,#7c5cff,#44d7b6);color:white;transition:all .2s ease;}
+button.primary:hover{box-shadow:0 4px 14px rgba(124,92,255,0.4);transform:translateY(-2px);}
+button.disabled{opacity:0.5;cursor:not-allowed;}
+.card{background:#1a1c2b;border-radius:12px;padding:16px;margin-bottom:16px;box-shadow:0 4px 20px rgba(0,0,0,0.5);}
+.escrow-card{padding:16px;border-radius:12px;border:1px solid rgba(255,255,255,0.03);display:flex;flex-direction:column;gap:12px;transition:transform .18s ease,box-shadow .18s ease;}
+.escrow-card:hover{transform:translateY(-4px);box-shadow:0 12px 30px rgba(6,10,26,0.5);}
+.escrow-card.approved{border:2px solid #44d7b6;animation:approvedPulse 0.4s ease-in-out;}
+@keyframes approvedPulse{0%{transform:scale(1);}50%{transform:scale(1.03);}100%{transform:scale(1);}}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:16px;}
+.escrow-top{display:flex;justify-content:space-between;align-items:center;}
+.escrow-title{font-weight:700;}
+.address.mono{font-family:monospace;font-size:12px;color:#9aa6b2;}
+.escrow-body .row{display:flex;justify-content:space-between;align-items:center;}
+.label{font-size:12px;color:#9aa6b2;}
+.small{font-size:13px;font-family:monospace;}
+.actions{display:flex;gap:10px;margin-top:12px;}
+.hero{padding:28px;margin-bottom:20px;background:linear-gradient(90deg,rgba(124,92,255,0.12),rgba(68,215,182,0.06));border-radius:14px;box-shadow:0 8px 30px rgba(2,6,23,0.6);}
+.hero-inner{display:flex;flex-direction:column;gap:12px;}
+.title{font-size:28px;}
+.subtitle{color:#9aa6b2;}
+.account-row{display:flex;gap:12px;margin-top:6px;}
+.chip{background:rgba(255,255,255,0.04);padding:8px 12px;border-radius:999px;font-size:13px;color:#9aa6b2;display:flex;gap:8px;align-items:center;}
+.mono{font-family:monospace;}
+.footer{text-align:center;margin-top:28px;color:#9aa6b2;}
