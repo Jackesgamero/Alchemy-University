@@ -1,0 +1,30 @@
+// SPDX-License-Identifier: MIT
+pragma solidity 0.8.4;
+
+contract Token {
+    uint256 public totalSupply;
+    string public name = "Spin";
+    string public symbol = "SPN";
+    uint8 public decimals = 18;
+
+    mapping(address => uint256) public balances;
+
+    event Transfer(address sender, address receiver, uint256 amount);
+
+    constructor(){
+        totalSupply = 1000 * 10 ** decimals;
+        balances[msg.sender] = totalSupply;
+    }
+
+    function balanceOf(address user) external view returns(uint256){
+        return balances[user];
+    }
+
+    function transfer(address receiver, uint256 amount) public{
+        require(balances[msg.sender] >= amount, "Not enough funds");
+        balances[msg.sender] -= amount;
+        balances[receiver] += amount;
+        emit Transfer(msg.sender,receiver,amount);
+    } 
+
+}
