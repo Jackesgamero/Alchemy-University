@@ -4,7 +4,7 @@
 
 ---
 
-## 📘 Ethereum Developer Bootcamp – Alchemy University
+## 📘 Ethereum Developer Bootcamp Solutions – Alchemy University
 
 ### 🇪🇸 Español
 Este repositorio contiene el código desarrollado a lo largo de las actividades y ejercicios propuestos en el  
