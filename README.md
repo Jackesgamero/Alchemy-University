@@ -72,8 +72,61 @@ This repository contains the code developed throughout the activities and exerci
 | 📂 Repository | [WebApp-ecdsa](https://github.com/Jackesgamero/Alchemy-University/tree/main/Week-1/WebApp-ecdsa) |
 | 🧠 Concepts | Hashing · ECDSA · Public/Private Keys |
 
----
+
+## 📘 Week 2 - Blockchain Storage
+
+### 🧩 Coding challenges
+
+<details>
+<summary> UTXO model</summary>
+
+- [1. transaction output](https://github.com/Jackesgamero/Alchemy-University/tree/main/Week-2/UTXO-model/1-transaction-output)
+- [2. spent TXOs](https://github.com/Jackesgamero/Alchemy-University/tree/main/Week-2/UTXO-model/2-spent-TXOs)
+- [3. sufficient amount](https://github.com/Jackesgamero/Alchemy-University/tree/main/Week-2/UTXO-model/3-sufficient-amount)
+- [4. successful execute](https://github.com/Jackesgamero/Alchemy-University/tree/main/Week-2/UTXO-model/4-successful-execute)
+- [5. miners fee](https://github.com/Jackesgamero/Alchemy-University/tree/main/Week-2/UTXO-model/5-miners-fee)
+
+</details>
+
+<details>
+<summary> Binary search tree</summary>
+
+- [1. node](https://github.com/Jackesgamero/Alchemy-University/tree/main/Week-2/binary-search-tree/1-node)
+- [2. tree](https://github.com/Jackesgamero/Alchemy-University/tree/main/Week-2/binary-search-tree/2-tree)
+- [3. add root](https://github.com/Jackesgamero/Alchemy-University/tree/main/Week-2/binary-search-tree/3-add-root)
+- [4. first layer](https://github.com/Jackesgamero/Alchemy-University/tree/main/Week-2/binary-search-tree/4-first-layer)
+- [5. many layers](https://github.com/Jackesgamero/Alchemy-University/tree/main/Week-2/binary-search-tree/5-many-layers)
+- [6. search](https://github.com/Jackesgamero/Alchemy-University/tree/main/Week-2/binary-search-tree/6-search)
+
+</details>
+
+<details>
+<summary> Merkle tree</summary>
+
+- [1. combine two leaves](https://github.com/Jackesgamero/Alchemy-University/tree/main/Week-2/merkle-tree/1-combine-two-leaves)
+- [2. multiple layers](https://github.com/Jackesgamero/Alchemy-University/tree/main/Week-2/merkle-tree/2-multiple-layers)
+- [3. odd leaves](https://github.com/Jackesgamero/Alchemy-University/tree/main/Week-2/merkle-tree/3-odd-leaves)
+- [4. build the proof](https://github.com/Jackesgamero/Alchemy-University/tree/main/Week-2/merkle-tree/4-build-the-proof)
+- [5. verify your proof](https://github.com/Jackesgamero/Alchemy-University/tree/main/Week-2/merkle-tree/5-verify-your-proof)
+
+</details>
+
+<details>
+<summary> Trie</summary>
+
+- [1. constructors](https://github.com/Jackesgamero/Alchemy-University/tree/main/Week-2/tries/1-constructors)
+- [2. insert](https://github.com/Jackesgamero/Alchemy-University/tree/main/Week-2/tries/2-insert)
+- [3. insert branching](https://github.com/Jackesgamero/Alchemy-University/tree/main/Week-2/tries/3-insert-branching)
+- [4. contains](https://github.com/Jackesgamero/Alchemy-University/tree/main/Week-2/tries/4-contains)
 
 
+</details>
 
+###  🖥️ Main Project 
+
+| Project | Description |
+|-------|-------------|
+| 🎁 **Merkle Tree Gift List** | An application that distributes gifts only to approved names using a Merkle Tree. The server stores only the 32-byte Merkle root and verifies client proofs to confirm list membership with minimal storage. |
+| 📂 Repository | [Gift-List](https://github.com/Jackesgamero/Alchemy-University/tree/main/Week-2/GiftList)|
+| 🧠 Concepts | Merkle Trees · Cryptographic Hashing · Proof Verification |
 
