@@ -417,3 +417,53 @@ This repository contains the code developed throughout the activities and exerci
 | 📂 Repository | [NFT Indexer](https://github.com/Jackesgamero/Alchemy-University/tree/main/Week-6/nft-indexer)|
 | 🧠 Concepts | ERC-721 Standard · Alchemy SDK · Ethereum Blockchain Queries · React · Chakra UI · Wallet Integration · NFT Metadata · Efficient Blockchain Indexing |
 
+<br>
+
+## 📘 Week 7 - Solidity Governance
+
+### 🧩 Coding challenges
+
+<details>
+<summary> Libraries</summary>
+
+- [1. Uint library](https://github.com/Jackesgamero/Alchemy-University/tree/main/Week-7/solidity-libraries/1-UInt-library)
+- [2. Using library](https://github.com/Jackesgamero/Alchemy-University/tree/main/Week-7/solidity-libraries/2-Using-library)
+- [3. Console log](https://github.com/Jackesgamero/Alchemy-University/tree/main/Week-7/solidity-libraries/3-Console-log)
+- [4. Evenly divides](https://github.com/Jackesgamero/Alchemy-University/tree/main/Week-7/solidity-libraries/4-Evenly-divides)
+- [5. IsPrime](https://github.com/Jackesgamero/Alchemy-University/tree/main/Week-7/solidity-libraries/5-IsPrime)
+- [6. Next prime](https://github.com/Jackesgamero/Alchemy-University/tree/main/Week-7/solidity-libraries/6-Next-prime)
+
+</details>
+
+<details>
+<summary> Libraries</summary>
+
+- [1. Uint library](https://github.com/Jackesgamero/Alchemy-University/tree/main/Week-7/solidity-libraries/1-UInt-library)
+- [2. Using library](https://github.com/Jackesgamero/Alchemy-University/tree/main/Week-7/solidity-libraries/2-Using-library)
+- [3. Console log](https://github.com/Jackesgamero/Alchemy-University/tree/main/Week-7/solidity-libraries/3-Console-log)
+- [4. Evenly divides](https://github.com/Jackesgamero/Alchemy-University/tree/main/Week-7/solidity-libraries/4-Evenly-divides)
+- [5. IsPrime](https://github.com/Jackesgamero/Alchemy-University/tree/main/Week-7/solidity-libraries/5-IsPrime)
+- [6. Next prime](https://github.com/Jackesgamero/Alchemy-University/tree/main/Week-7/solidity-libraries/6-Next-prime)
+
+</details>
+
+<details>
+<summary> Voting contract</summary>
+
+- [1. proposal](https://github.com/Jackesgamero/Alchemy-University/tree/main/Week-7/voting-contract/1-proposal)
+- [2. cast a vote](https://github.com/Jackesgamero/Alchemy-University/tree/main/Week-7/voting-contract/2-cast-a-vote)
+- [3. multiple votes](https://github.com/Jackesgamero/Alchemy-University/tree/main/Week-7/voting-contract/3-multiple-votes)
+- [4. voting events](https://github.com/Jackesgamero/Alchemy-University/tree/main/Week-7/voting-contract/4-voting-events)
+- [5. members](https://github.com/Jackesgamero/Alchemy-University/tree/main/Week-7/voting-contract/5-members)
+- [6. execute](https://github.com/Jackesgamero/Alchemy-University/tree/main/Week-7/voting-contract/6-execute)
+
+</details>
+
+###  🖥️ Main Project
+
+| Project | Description |
+|-------|-------------|
+| 🗳️ **ERC-20 Governance** |A decentralized governance system built with Solidity and Hardhat where an ERC-20 token is used both as voting power and as a controlled minting mechanism. The project integrates OpenZeppelin’s Governor framework to allow token holders to create, vote on, and execute proposals. It demonstrates the full governance lifecycle: contract deployment with deterministic addresses, vote delegation, proposal creation, on-chain voting, and execution. The system includes a Governor contract with configurable voting parameters and an ERC-20 Votes token whose minting function is restricted to successful governance proposals. Designed for deployment on Sepolia. |
+| 📂 Repository | [ERC-20 Governance](https://github.com/Jackesgamero/Alchemy-University/tree/main/Week-7/MintGovernance)|
+| 🧠 Concepts | ERC-20 Votes · OpenZeppelin Governor · On-chain Governance · DAO Mechanics · Vote Delegation · Proposal Lifecycle · Hardhat · Ethers.js · Smart Contract Interaction · Sepolia Testnet |
+
